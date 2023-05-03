@@ -1,0 +1,18 @@
+# Función para sumar dos números
+def sumar(a, b):
+    return a + b
+
+# Función para restar dos números
+def restar(a, b):
+    return a - b
+
+# Función para multiplicar dos números
+def multiplicar(a, b):
+    return a * b
+
+# Función para dividir dos números
+def dividir(a, b):
+    if b == 0:
+        return "Error: división por cero"
+    else:
+        return a / b
